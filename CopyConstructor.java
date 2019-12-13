@@ -31,7 +31,7 @@ class CopyConstructor1 {
 public class CopyConstructor
 {
 	public static void main(String[] args) {
-		CopyConstructor1 copy = new CopyConstructor1(1,"ASHU");
+		CopyConstructor1 copy = new CopyConstructor1(1,"Aman");
 		CopyConstructor1 copy1 = new CopyConstructor1(copy);
 		copy.display();
 		copy1.display();
